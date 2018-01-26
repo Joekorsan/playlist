@@ -2,6 +2,28 @@
   border: 10px solid green;
 }
 
+.playlist-container{
+  border: 10px solid green;
+}
+
 .box1{
   border: 3px solid blue;
+}
+
+.header{
+  background-color: yellow;
+}
+.scrollableDiv{
+  overflow-x: scroll;
+  border: 5px solid blue;
+
+}
+
+.scrollableDiv div:nth-child(even){
+  background-color: gray
+}
+
+.images{
+  max-width: 100px;
+  float: left;
 }
